@@ -12,16 +12,16 @@ Start up the Jupyter Notebook instance (it will show up as a program in the star
 Download the .py file. To edit the file in IDLE, ensure you edit using the Pro instance (Python 3.x). Make custom changes (username, password, file paths) before running the script. Then, run the script (F5 in IDLE).
 
 ### Variables to modify in the script
-`paths` - dictionary containing keys (feature class types) and values (their corresponding local file paths).
-`username` - your portal username.
-`password` - (optional) your portal password.
-`portalURL` - your portal URL. 
-`clearTempWorkspace` - set this to True to delete the temporary folder that is created in your arcpy scratch workspace after the script is done running. 
-`removeGDB` - set this to True to remove the file geodatabase item that is uploaded to your portal after the feature service is published from it. Note that you cannot overwrite the data of the hosted feature service if this file geodatabase item is deleted.  
-`fsName` - provide a feature service name. The feature layers in the service will have a timestring appended to their name to ensure uniqueness. Note: if the name already exists in your portal, the script will get mad at you. 
-`tags` - provide any tags you want to include, separated by commas. 
-`folder` - provide folder that you want to use in your portal. The default is root ('/'). The folder should exist before publishing (i.e. 'DeveloperData').
-`fcList` - a list of feature class types to publish (i.e. the keys of the `paths` dictionary listed previously). 
+`paths` - dictionary containing keys (feature class types) and values (their corresponding local file paths). <br>
+`username` - your portal username.<br>
+`password` - (optional) your portal password.<br>
+`portalURL` - your portal URL. <br>
+`clearTempWorkspace` - set this to True to delete the temporary folder that is created in your arcpy scratch workspace after the script is done running. <br>
+`removeGDB` - set this to True to remove the file geodatabase item that is uploaded to your portal after the feature service is published from it. Note that you cannot overwrite the data of the hosted feature service if this file geodatabase item is deleted.  <br>
+`fsName` - provide a feature service name. The feature layers in the service will have a timestring appended to their name to ensure uniqueness. Note: if the name already exists in your portal, the script will get mad at you. <br>
+`tags` - provide any tags you want to include, separated by commas. <br>
+`folder` - provide folder that you want to use in your portal. The default is root ('/'). The folder should exist before publishing (i.e. 'DeveloperData').<br>
+`fcList` - a list of feature class types to publish (i.e. the keys of the `paths` dictionary listed previously). <br>
 
 ### Notes
 
